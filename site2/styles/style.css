@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,400&display=swap');
+
+body {
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+/*Шапка start*/
+header {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.logo img {
+  max-width: 100%;
+  height: 70px;
+}
+
+/* Search button start */
+.search-container {
+  margin-right: 50%;
+  display: flex;
+}
+
+.search-container form {
+  display: flex;
+  width: 100%;
+}
+
+.search-container input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-container button[type="submit"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.search-container button[type="submit"]:hover {
+  background-color: #555;
+}
+/* Search button end */
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-left: 40px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  outline: 0;
+  border-bottom: solid 1px transparent;
+  transition: color .5s ease-out, border-bottom-color 1s ease-out;
+}
+
+nav a:hover {
+  color: gray;
+  border-bottom: solid 1px red;
+}
+/*Шапка end*/
+
+/*Жанри start*/
+.menu {
+  width: 100%;
+  margin-top: 25px;
+  position: absolute; /*fixed*/  /*z-index*/
+  text-align: center;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  transition: all .4s, border-bottom-color 1.2s ease-out;
+}
+
+.menu a:hover {
+  border-bottom: solid 1px red;
+  color: red;
+}
+
+.menu a.active {
+  background-color: #333;
+  color: #fff;
+}
+/*Жанри end*/
+
+/*Головне фото start*/
+.mainPhoto img {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.mainPhoto a {
+  text-decoration: none;
+  color: white;
+}
+/*Головне фото end*/
+
+/* Текст на фото start */
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+
+.text-overlay h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.text-overlay p {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+/* Текст на фото end */
+
+/* Кнопка переходу start*/
+.button {
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0.5rem;
+  font-weight: 500;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.button-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.button-primary:hover {
+  background-color: #0062cc;
+}
+/* Кнопка переходу end*/
+
+/*Футер start*/
+footer {
+  background-color: black;
+  color: #fff;
+  /* position: fixed; */
+  width: 100%;
+  height: 12%;
+  padding: 50px 0;
+  bottom: 0;
+}
+
+footer h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+footer ul {
+  list-style: none;
+  margin: -10px;
+  padding: 10px;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer ul li i {
+  margin-right: 10px;
+}
+
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer .col-md-6 {
+  width: 50%;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+footer .col-md-3 {
+  width: 25%;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+footer .col-md-3:last-child {
+  text-align: right;
+}
+
+footer .col-md-3 a {
+  color: red;
+  text-decoration: none;
+}
+
+.social-icons {
+  list-style: none;
+  margin-left: 0;
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+.social-icons i {
+  display: inline-block;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+/*Футер end*/
