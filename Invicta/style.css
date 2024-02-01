@@ -1,0 +1,475 @@
+body {
+    background-color: #101010;
+    margin: 0;
+}
+
+.error {
+    border-color: #FF0000;
+}
+
+/* Hero section */
+.mainPhoto {
+    position: relative;
+}
+
+.bgImage {
+    width: 100%;
+    height: 966px;
+    pointer-events: none;
+}
+
+.overlayText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #F6F6F6;
+    text-align: center;
+    width: 1500px;
+    font-family: Orbitron;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 250%;
+    letter-spacing: 4.76px;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+.scroll-sign {
+    position: absolute;
+    display: flex;
+    top: 84.8%;
+    border-radius: 0px 70px 0px 0px;
+    background: var(--background-color, rgb(5, 5, 5));
+    width: 709px;
+    height: 147px;
+}
+
+.scroll-sign p {
+    color: #FCFCFC;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 70px;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 128%;
+    text-transform: uppercase;
+}
+
+.scroll-sign i {
+    margin-top: 63px;
+    margin-left: 30px;
+    stroke-width: 2px;
+    font-size: 25px;
+    color: white;
+}
+
+.header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 50px;
+    left: 70px;
+    right: 70px;
+}
+
+.companyName {
+    color: #89CEEB;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: Michroma;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+.hamburger {
+    width: 45px;
+}
+/* Hero section */
+
+/* About-us section */
+.about-text1 {
+    margin: 200px 0 0 75px;
+    width: 520px;
+}
+
+.about-text1 p {
+    color: white;
+    font-family: Orbitron;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.92px;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    pointer-events: none;
+}
+
+.unsplash {
+    position: relative;
+    user-select: none;
+}
+
+.logo {
+    position: absolute;
+    user-select: none;
+}
+
+.about-text2 {
+    width: 600px;
+    float: right;
+    margin-right: 70px;
+}
+
+.about-text2 p {
+    color: white;
+    font-family: Rubik;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+/* About-us section */
+
+/* Portfolio section */
+.portfolio {
+    margin: 400px 70px 0 70px
+}
+
+.photo-container {
+    display: flex;
+    margin-bottom: 90px;
+}
+
+.ph {
+    margin-right: 20px;
+}
+
+.ph img {
+    pointer-events: none;
+    user-select: none;
+}
+
+.upper-ph {
+    display: flex;
+}
+
+.upper-ph p {
+    color: #FCFCFC;
+    font-family: Rubik;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    text-transform: uppercase;
+}
+
+.upper-button {
+    margin-left: 100px;
+}
+
+.upper-button button {
+    margin-top: 31px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--white, #FCFCFC);
+    background-color: #101010;
+    height: 40px;
+    display: inline-flex;
+    padding: 11px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FCFCFC;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    user-select: none;
+}
+
+.portfolio h1 {
+    color: white;
+    font-family: Orbitron;
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.04px;
+    text-transform: uppercase;
+}
+/* Portfolio section */
+
+/* Our team section */
+.our-team {
+    background: var(--dark-violet, #1A1D25);
+    margin-top: 200px;
+}
+
+.team-text {
+    width: 650px;
+    padding: 200px 0 0 70px;
+}
+
+.content {
+    color: white;
+    font-family: Rubik;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.upper-text {
+    color: #89CEEB;
+    width: 500px;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 128%;
+    text-transform: uppercase;
+}
+
+.meet-button {
+    margin-top: 30px;
+    margin-left: 3.7%;
+}
+
+.meet-button button {
+    display: inline-flex;
+    height: 64px;
+    padding: 15px 45px 0px 46.5px;
+    justify-content: center;
+    text-align: center;
+    gap: 16.5px;
+    border-radius: 20px;
+    border: 1px solid var(--white, #FCFCFC);
+    background: var(--dark-violet, #1A1D25);
+    transition: all 0.5s ease;
+}
+
+.meet-button button:hover {
+    transform: scale(1.1);
+}
+
+.meet-button a {
+    font-family: Rubik;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color: white;
+    text-decoration: none;
+}
+
+.meet-text {
+    position: relative;
+    padding-bottom: 200px;
+}
+
+.meet-text p{
+    text-align: center;
+    font-family: Orbitron;
+    font-size: 115px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4.6px;
+    text-transform: uppercase;
+    opacity: 0.30000001192092896;
+    user-select: none;
+    color: #1A1D25;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+/* Our team section */
+
+/* Footer */
+:root {
+    --white: #FCFCFC;
+    --blue: #89CAEB;
+    --black: #101010;
+    --grey: #878787;
+}
+
+footer {
+    margin: 300px 70px 50px 70px;
+}
+
+.footer-container {
+    display: flex;
+}
+
+footer h1 {
+    width: 780px;
+    color: #89CAEB;
+    font-family: Orbitron;
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.04px;
+    text-transform: uppercase;
+}
+
+footer p {
+    color: #FCFCFC;
+    width: 530px;
+    font-family: Rubik;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+footer a {
+    display: flex;
+    margin-top: 50px;
+    text-decoration: none;
+    color: white;
+    font-family: Rubik;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.icons {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 64px;
+    margin-top: 185px;
+    user-select: none;
+}
+
+.icons a {
+    transition: all 0.3s ease;
+}
+
+.icons a:hover {
+    transform: scale(1.1);
+}
+
+.right-side {
+    margin-top: 60px;
+    margin-left: 50px;
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input.valid-input {
+    background-color: var(--white);
+}
+  
+input {
+    width: 878px;
+    height: 73px;
+    border-radius: 20px;
+    border: 1px solid var(--white);
+    padding-left: 35px;
+}
+
+textarea {
+    max-width: 878px;
+    max-height: 242px;
+    min-height: 242px;
+    min-width: 878px;
+    border-radius: 20px;
+    border: 1px solid var(--white, #FCFCFC);
+    color: white;
+    font-size: 25px;
+    padding: 28px 0 0px 35px;
+    cursor: pointer;
+}
+
+input, textarea {
+    background-color: #101010;
+    margin-bottom: 30px;
+}
+
+input::placeholder {
+    color: #878787;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 128%;
+    text-transform: uppercase;
+}
+
+textarea::placeholder {
+    color: #878787;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 128%;
+    text-transform: uppercase;
+}
+
+input[type="text"] {
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+input[type="email"] {
+    color: var(--white);
+    cursor: not-allowed; 
+    font-size: 25px;
+    background-color: #101010; 
+}
+
+input[type="submit"] {
+    background-color: #101010;
+    margin-top: 55px;
+    width: 300px;
+    padding-right: 31px;
+    color: #FCFCFC;
+    font-family: Rubik;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.1);
+}
+
+.intr {
+    color: #878787;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    float: right;
+    margin-right: 35px;
+    margin-top: 140px;
+}
+/* Footer */

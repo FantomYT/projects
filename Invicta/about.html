@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Orbitron:wght@400;500;700&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="about.css">
+    <title>Invicta</title>
+</head>
+<body>
+    <div class="mainPhoto">
+        <img src="images/bckgrMain.png" alt="img" class="bgImage">
+        <div class="overlayText">
+            <h1>Our Team</h1>
+            <div class="scroll" onclick="scrollToTeam()">
+                <img src="images/Scroll Down.png" alt="scroll">
+            </div>
+            <div class="overlay-text">
+                <p>Our team is a dynamic collective of passionate individuals who thrive on innovation and collaboration. With diverse backgrounds and expertise in various fields, we come together to form a powerhouse of talent dedicated to driving digital transformation. </p> 
+                <p>  We embodies a relentless pursuit of excellence, constantly pushing boundaries to deliver cutting-edge solutions to our clients. We are fueled by curiosity and driven by a shared vision to create impactful and meaningful experiences.</p>
+            </div>          
+        </div>
+        <div class="header">
+          <div class="companyName">Invicta</div>
+          <div class="hamburger"><img src="images/HamburgerMenu.svg" alt="menu"></div>
+        </div>
+    </div>
+
+    <section class="team" id="team">
+        <div class="container">
+            <div class="card">
+              <img src="images/julia.png" alt="Image 1">
+              <h3>Julia Artyukh</h3>
+              <p>Founder, UI/UX Designer</p>
+            </div>
+            <div class="card">
+              <img src="images/denys.png" alt="Image 2">
+              <h3>Denys Parshehuba</h3>
+              <p>Frontend Developer, Copyrighter</p>
+            </div>
+            <div class="card">
+              <img src="images/dmytro.png" alt="Image 3">
+              <h3>Dmytro Pavlyshyn</h3>
+              <p>Frontend Developer</p>
+            </div>
+            <div class="card">
+              <img src="images/nastya.png" alt="Image 4">
+              <h3>Anastasia Tarasenko</h3>
+              <p>Frontend Developer</p>
+            </div>
+          </div>
+    </section>
+
+    <div class="slide-text">
+        <img src="images/Marquee.png" alt="">
+    </div>
+
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="left-side">
+                <h1>Got a project in mind?</h1>
+                <p>If you have any questions or ideas about your project, please drop us and email or fill the form.</p>
+                <a href="mailto:invicta.itco@gmail.com">invicta.itco@gmail.com</a>
+                <div class="icons">
+                    <a href="#"><img src="images/upwork.svg" alt="upwork"></a>
+                    <a href="#"><img src="images/behance.svg" alt="behance"></a>
+                    <a href="#"><img src="images/linkedIn.svg" alt="linkedIn"></a>
+                </div>
+            </div>
+            <div class="right-side">
+                <form method="POST" action="send_email.php">
+                    <input type="text" id="name" name="name" required placeholder="Name">
+                    
+                    <input type="email" id="email" name="email" required placeholder="Email" onclick="validateEmail()">
+                    
+                    <textarea id="message" name="message" required placeholder="Project details"></textarea>
+                
+                    <input class="form-send" type="submit" value="Send a message" id="submitButton" disabled>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <p class="intr">© 2023 INVICTA</p>
+
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/3664a13036.js" crossorigin="anonymous"></script>
+</body>
+</html>
