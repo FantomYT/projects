@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Lobster&family=Montserrat:wght@600&family=Oswald:wght@200&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <title>Cherry Blosoom</title>
+</head>
+<body>
+    <div class="navigation">
+        <div class="dropdown">
+            <button class="menu-button" onclick="toggleDropdown()"><i class="fa-solid fa-bars"></i></button>
+            <div class="dropdown-content" id="dropdownContent">
+                <a href="about.html">About us</a>
+                <a href="contacts.html">Contacts</a>
+                <a href="#catalog">Catalog</a>
+                <a href="#collections">Collections</a>
+            </div>
+        </div>
+        <img src="images/ava.png" alt="ava">
+        <div class="button-wrapper">
+            <div class="search-box">
+                <input type="text" name="search" placeholder="Search..." class="search-input">
+                <a href="#" class="search-btn"><i class="fas fa-search"></i></a>
+            </div>
+            <div class="cart-box">
+                <button class="cart-shopping"><i class="fa-solid fa-cart-shopping"><span>40,25$</span></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="mainPhoto">
+        <img src="images/background-main.png" alt="Films">
+        <div class="text-overlay">
+            <h2>Choose flowers <br> for any occasion</h2>
+            <p>Our goal is to provide the highest quality <br> and fresh flower delivery in Los Angeles.</p>
+            <button class="button-primary"><a href="rec.html">View now</a></button>
+        </div>
+    </div>
+
+    <section class="info">
+        <div class="car">
+            <h2>Need flowers delivered today?</h2>
+            <p>Call or chat us</p>
+            <img src="images/car.png" alt="car">
+        </div>
+        <div class="cart">
+            <h2>Free delivery within 4 miles</h2>
+            <p>No minimum order</p>
+            <img src="images/cart.png" alt="cart">
+        </div>
+      </section>
+
+      <section class="rated" id="catalog">
+        <h1>Top Rated</h1>
+        <div class="card-container"">
+            <div class="card">
+                <img src="images/fl1.png" alt="">
+                <p>Cristal (pink carnations with mix flowers)</p>
+                <p>$125.00</p>
+                <button class="add-cart">Add to cart</button>
+            </div>
+            <div class="card">
+                <img src="images/fl2.png" alt="">
+                <p>Milana (bouquet with garden roses)</p>
+                <p>$245.00</p>
+                <button class="sold">Sold out</button>
+            </div>
+            <div class="card">
+                <img src="images/fl3.png" alt="">
+                <p>Diamond bouquet pink roses</p>
+                <p>From $200.00</p>
+                <button class="add-cart">View options</button>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <img src="images/fl4.png" alt="">
+                <p>Bouquet Hyacinth pink</p>
+                <p>$150.00</p>
+                <button class="add-cart">Add to cart</button>
+            </div>
+            <div class="card">
+                <img src="images/fl5.png" alt="">
+                <p>Bouquet rose bush odilia</p>
+                <p>From $245.00</p>
+                <button class="add-cart">View options</button>
+            </div>
+            <div class="card">
+                <img src="images/fl6.png" alt="">
+                <p>Bouquet of delicate carnation rose</p>
+                <p>From $210.00</p>
+                <button class="add-cart">View options</button>
+            </div>
+        </div>
+
+        <div class="show-container">
+            <button class="show-more">Show more</button>   
+        </div>
+      </section>
+
+      <section class="collections" id="collections">
+        <h1>Our Collections</h1>
+        <div class="col-container">
+            <a href="#">
+                <div class="cards">
+                    <img src="images/col1.png" alt="BIRTHDAY">
+                    <p class="card-text">Birthday</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="cards">
+                    <img src="images/col2.png" alt="WEDDING">
+                    <p class="card-text">Wedding</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="cards">
+                    <img src="images/col3.png" alt="ANNIVERSARY">
+                    <p class="card-text">Anniversary</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-container">
+            <a href="#">
+                <div class="cards">
+                    <img src="images/col4.png" alt="NEW BABY">
+                    <p class="card-text">New Baby</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="cards">
+                    <img src="images/col5.png" alt="LUXURY">
+                    <p class="card-text">Luxury</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="cards">
+                    <img src="images/col6.png" alt="GRADUATION">
+                    <p class="card-text">Graduation</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-container">
+            <a href="#">
+                <div class="cards">
+                    <img src="images/col7.png" alt="NEW YEAR">
+                    <p class="card-text">New Year</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="cards">
+                    <img src="images/col8.png" alt="VALENTINE`S DAY">
+                    <p class="card-text">Valentine</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="cards">
+                    <img src="images/col9.png" alt="SYMPATHY">
+                    <p class="card-text">Sympathy</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-container">
+            <a href="#">
+                <div class="cards">
+                    <img src="images/col10.png" alt="LOVE AND ROMANCE">
+                    <p class="card-text">Romance</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="cards">
+                    <img src="images/col11.png" alt="THANK YOU">
+                    <p class="card-text">Thank you</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="cards">
+                    <img src="images/col12.png" alt="TOYS">
+                    <p class="card-text">Toys</p>
+                </div>
+            </a>
+        </div>        
+      </section>
+
+      <section class="choosing">
+        <h1>Why choose us?</h1>
+        <div class="rec-container">
+            <div class="rec">
+                <div class="EC">
+                    <h2>Extensive сhoice</h2>
+                    <img src="images/Vector-rec1.png" alt="">
+                    <div class="vector">
+                        <img src="images/rec-img1.png" alt="">
+                    </div>
+                </div>
+                <p style="margin-top: 26px;">We have a huge selection of the most beautiful flowers in town. Our flower shop stocks all types of flowers, including roses, tulips, lilies, and more!</p>
+            </div>
+            <div class="rec">
+                <div class="EC">
+                    <h2> Fast delivery</h2>
+                    <img src="images/Vector-rec2.png" style="margin-left: 50px;" alt="">
+                    <div class="vector">
+                        <img src="images/rec-img2.png" alt="">
+                    </div>
+                </div>
+                <p style="margin-top: 20px;">When it comes to delivering flowers as fast as possible, we don't mess around. We also provide next-day delivery from our store to your door.</p>
+            </div>
+            <div class="rec">
+                <div class="EC">
+                    <h2>Online ordering</h2>
+                    <img src="images/Vector-rec3.png" style="margin-left: 30px;" alt="">
+                    <div class="vector">
+                        <img src="images/rec-img3.png" alt="">
+                    </div>
+                </div>
+                <p style="margin-top: 15px;">All you need to do is select the type and quantity of what you want online - we'll take care of the rest! Our team is online 24/7 with clients.</p>
+            </div>
+        </div>        
+      </section>
+
+      <section class="sub">
+        <h1>Subscribe to our emails</h1>
+        <p>Be the first to know about new collections and exclusive offers.</p>
+        <div class="form-input">
+            <label for="email"></label>
+            <input type="email" placeholder="E-mail">
+            <button class="subscribe-btn">Subscribe</button>
+          </div>
+      </section>
+
+      <section class="questions">
+        <h1>Frequently Asking Questions</h1>
+        <div class="faq-container">
+            <div class="faq">
+                <h3 class="question">Can I order same day flower delivery?</h3>
+                <div class="answer">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            <div class="faq">
+                <h3 class="question">Do you deliver on Sundays?</h3>
+                <div class="answer">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            <div class="faq">
+                <h3 class="question">How much does flower delivery service cost?</h3>
+                <div class="answer">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="faq">
+                <h3 class="question">Can I pick up flowers from the shop?</h3>
+                <div class="answer">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="faq">
+                <h3 class="question">Can I order flower delivery for tomorrow?</h3>
+                <div class="answer">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="faq">
+                <h3 class="question">Where do you deliver flowers?</h3>
+                <div class="answer">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="faq">
+                <h3 class="question">How long does it take to deliver flowers?</h3>
+                <div class="answer">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="faq">
+                <h3 class="question">Can I create my own bouquet?</h3>
+                <div class="answer">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+      </section>
+
+      <section class="instagram">
+        <h1>Follow us on Instagram</h1>
+        <a href="#">@cherryblossom.la</a>
+        <div class="inst-container">
+            <img src="images/inst-photo.png" alt="instagram">
+        </div>      
+      </section>
+
+      <section class="blog">
+        <h1>Our Blog</h1>
+        <div class="blog-container">
+            <div class="blog-card">
+                <img src="images/blog1.png" alt="">
+                <p>In amet, mollis </p>
+                <p>Ipsum dui sit non ipsum leo, dictumst. Dictumst. Et pulvinar leo, id ut. Eget mattis pellentesque mattis dolor adipiscing accumsan elit. Non libero, libero, amet tortor, velit ex. </p>
+            </div>
+            <div class="blog-card">
+                <img src="images/blog2.png" alt="">
+                <p>In amet, mollis </p>
+                <p>Ipsum dui sit non ipsum leo, dictumst. Dictumst. Et pulvinar leo, id ut. Eget mattis pellentesque mattis dolor adipiscing accumsan elit. Non libero, libero, amet tortor, velit ex. </p>
+            </div>
+            <div class="blog-card">
+                <img src="images/blog3.png" alt="">
+                <p>In amet, mollis </p>
+                <p>Ipsum dui sit non ipsum leo, dictumst. Dictumst. Et pulvinar leo, id ut. Eget mattis pellentesque mattis dolor adipiscing accumsan elit. Non libero, libero, amet tortor, velit ex. </p>
+            </div>
+        </div>
+      </section>
+
+      <section class="address">
+        <div class="address-img">
+            <img src="images/address.png" alt="address">
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer-container">
+            <div class="menu">
+                <h1>Menu</h1>
+                <a href="index.html">Home</a>
+                <a href="about.html">About us</a>
+                <a href="#catalog">Catalog</a>
+                <a href="#collections">Collections</a>
+                <a href="contacts.html">Contacts</a>
+            </div>
+            <div class="contact">
+                <img src="images/ava-footer.png" style="margin-left: 70px;" alt="ava">
+                <p>6201 Hollywood blvd <br> Los Angeles, California 90028</p>
+                <p>Monday - Friday 9:00 am - 8:00 pm <br> Saturday 10:00 am - 5:00 pm <br> Sunday 10:00 am - 5:00 pm</p>
+                <p>+214 772 56 74 <br> cherryblossom@gmail.com</p>
+                <div class="media">
+                    <a href="#"><i class="fa-brands fa-pinterest fa-2xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+                </div>
+            </div>
+            <div class="menu">
+                <h1>Legal Notice</h1>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Refund Policy</a>
+                <a href="#">Shipping police</a>
+                <a href="#">Billing and payment</a>
+            </div>
+        </div>
+      </footer>
+
+      <section class="company">
+        <div class="company-img">
+            <img src="images/company.png" alt="company">
+        </div>
+        <p>© 2022, Los Angeles Florist - Cherry Blossom</p>
+      </section>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/3664a13036.js" crossorigin="anonymous"></script>
+</body>
+</html>

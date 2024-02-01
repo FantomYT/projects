@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Lobster&family=Montserrat:wght@600&family=Oswald:wght@200&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <title>Cherry Blosoom</title>
+</head>
+<body>
+    <div class="navigation">
+        <div class="dropdown">
+            <button class="menu-button" onclick="toggleDropdown()"><i class="fa-solid fa-bars"></i></button>
+            <div class="dropdown-content" id="dropdownContent">
+                <a href="index.html">Home</a>
+                <a href="about.html">About us</a>
+                <a href="contacts.html">Contacts</a>
+            </div>
+        </div>
+        <img src="images/ava.png" alt="ava">
+        <div class="button-wrapper">
+            <div class="search-box">
+                <input type="text" name="search" placeholder="Search..." class="search-input">
+                <a href="#" class="search-btn"><i class="fas fa-search"></i></a>
+            </div>
+            <div class="cart-box">
+                <button class="cart-shopping"><i class="fa-solid fa-cart-shopping"><span>40,25$</span></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="link-container">
+        <a href="index.html" class="gray-link">Home</a>
+        <span>/</span>
+        <a href="contacts.html" class="red-link">Contacts</a>
+    </div>
+
+    <section class="address">
+        <h1>Contacts</h1>
+        <div class="address-img">
+            <img src="images/address.png" alt="address">
+        </div>
+    </section>
+
+    <section class="send">
+        <div class="video">
+            <h1>How to get to us?</h1>
+            <div class="video-container">
+                <video class="styled-video" controls>
+                    <source src="#" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        <div class="write">
+            <h1>Write to us</h1>
+            <div class="write-container">
+                <div class="contact-form">
+                    <h2>Contact Us</h2>
+                    <div class="form-row">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="E-mail">
+                        <input type="tel" placeholder="Phone">
+                    </div>
+                    <div class="form-row">
+                        <textarea placeholder="Enter text..."></textarea>
+                    </div>
+                    <div class="form-row">
+                        <button class="send-button">Send</button>
+                    </div>
+                </div>   
+            </div>           
+        </div>
+    </section>
+
+    <section class="sub">
+        <h1>Subscribe to our emails</h1>
+        <p>Be the first to know about new collections and exclusive offers.</p>
+        <div class="form-input">
+            <label for="email"></label>
+            <input type="email" placeholder="E-mail">
+            <button class="subscribe-btn">Subscribe</button>
+          </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="menu">
+                <h1>Menu</h1>
+                <a href="index.html">Home</a>
+                <a href="about.html">About us</a>
+                <a href="contacts.html">Contacts</a>
+            </div>
+            <div class="contact">
+                <div class="fot-ava">
+                    <img src="images/ava2.png" alt="ava">
+                    <h1>Chery Blossom</h1>
+                </div>
+                <p>6201 Hollywood blvd <br> Los Angeles, California 90028</p>
+                <p>Monday - Friday 9:00 am - 8:00 pm <br> Saturday 10:00 am - 5:00 pm <br> Sunday 10:00 am - 5:00 pm</p>
+                <p>+214 772 56 74 <br> cherryblossom@gmail.com</p>
+                <div class="media">
+                    <a href="#"><i class="fa-brands fa-pinterest fa-2xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+                </div>
+            </div>
+            <div class="menu">
+                <h1>Legal Notice</h1>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Refund Policy</a>
+                <a href="#">Shipping police</a>
+                <a href="#">Billing and payment</a>
+            </div>
+        </div>
+    </footer>
+
+    <section class="company">
+        <div class="company-img">
+            <img src="images/company.png" alt="company">
+        </div>
+        <p>© 2022, Los Angeles Florist - Cherry Blossom</p>
+    </section>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/3664a13036.js" crossorigin="anonymous"></script>
+</body>
+</html>
